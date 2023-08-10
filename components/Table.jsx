@@ -3,6 +3,7 @@
 function Table({ objects }) {
   return (
     <div className="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 pr-10 lg:px-8">
+      <h1>Table</h1>
       <section class="rounded-lg w-full bg-gray-200 p-5">
         <div class="flex">
           <div class="flex w-10 items-center justify-center rounded-tl-lg rounded-bl-lg border-r border-gray-200 bg-white">
