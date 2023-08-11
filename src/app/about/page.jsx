@@ -1,9 +1,7 @@
-import React from "react";
-
 function AboutPage() {
   return (
     <>
-      <p className="p-10">
+      <p className="p-4 md:p-10 text-center md:text-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
         voluptatum ullam quidem. Nisi laborum quis non repellendus facilis? At
         temporibus officiis quia veritatis, perspiciatis quisquam repellat
