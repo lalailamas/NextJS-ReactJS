@@ -2,12 +2,7 @@
 import Table from "../../components/Table";
 import Modal from "../../components/Modal";
 import  { useEffect, useState } from 'react';
-
-async function getHttp() {
-  const res = await fetch("https://eokyg5j5on90it0.m.pipedream.net/");
-  const data = await res.json();
-  return data.data;
-}
+import getHttp from "./api/getHttp";
 
 function HomePage() {
   const [objects, setObjects] = useState([]);
